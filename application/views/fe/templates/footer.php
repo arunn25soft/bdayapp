@@ -100,6 +100,7 @@
   </div> -->
   <!--   Core JS Files   -->
   <script src="<?php echo base_url();?>assets/js/core/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script src="<?php echo base_url();?>assets/js/core/popper.min.js"></script>
   <script src="<?php echo base_url();?>assets/js/core/bootstrap-material-design.min.js"></script>
   <script src="<?php echo base_url();?>assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>

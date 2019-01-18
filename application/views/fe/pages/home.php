@@ -7,6 +7,7 @@
                   <div class="nav-tabs-navigation">
                     <div class="nav-tabs-wrapper">
                       <span class="nav-tabs-title">Tasks:</span>
+                      <a data-toggle="modal" href="#loginModal">Open Modal</a>
                       <ul class="nav nav-tabs" data-tabs="tabs">
                         <li class="nav-item">
                           <a class="nav-link active" href="#profile" data-toggle="tab">

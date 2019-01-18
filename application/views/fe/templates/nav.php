@@ -137,3 +137,63 @@
         </div>
       </nav>
       <!-- End Navbar -->
+      <!-- Modal  Starts -->
+      <div class="modal fade" id="loginModal" tabindex="-1" role="">
+            <div class="modal-dialog modal-login" role="document">
+                <div class="modal-content">
+                    <div class="card card-signup card-plain">
+                        <div class="modal-header">
+                            <div class="card-header card-header-primary text-center">
+                                <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button> -->
+                                <h4 class="card-title">Create Employee</h4>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form" method="" action="">
+                                <!-- <p class="description text-center">Or Be Classical</p> -->
+                                <div class="card-body">
+
+                                    <div class="form-group bmd-form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="First Name...">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group bmd-form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Email...">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group bmd-form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Phone...">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group bmd-form-group">
+                                        <div class="input-group">
+                                            <!-- <input type="text" class="form-control" placeholder="Phone..."> -->
+                                            <div class="input-group">
+                                <input type="text" name="idTourDateDetails" id="idTourDateDetail" readonly="readonly" class="form-control clsDatePicker"> <span class="input-group-addon"><i id="calIconTourDateDetails" class="glyphicon glyphicon-th"></i></span>
+
+                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="form-group bmd-form-group">
+                                        <div class="input-group">
+                                            <input type="password" placeholder="Password..." class="form-control">
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- Modal Ends -->
