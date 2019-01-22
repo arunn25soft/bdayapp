@@ -99,8 +99,7 @@
     </div>
   </div> -->
   <!--   Core JS Files   -->
-  <script src="<?php echo base_url();?>assets/js/core/jquery.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
   <script src="<?php echo base_url();?>assets/js/core/popper.min.js"></script>
   <script src="<?php echo base_url();?>assets/js/core/bootstrap-material-design.min.js"></script>
   <script src="<?php echo base_url();?>assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
@@ -143,7 +142,7 @@
   <!-- Material Dashboard DEMO methods, don't include it in your project! -->
   <script src="<?php echo base_url();?>assets/demo/demo.js"></script>
   <!-- Custom Js -->
-  <script src="<?php echo base_url();?>assets/js/main.js"></script>
+  <script src="<?php echo base_url();?>assets/js/main.js?v=1.0"></script>
   <script>
     $(document).ready(function() {
       $().ready(function() {

@@ -1,18 +1,21 @@
-// $(document).ready(function(){
-    
-//     $('#idTourDateDetails').datepicker({
-//         dateFormat: 'dd-mm-yy',
-//         minDate: '+5d',
-//         changeMonth: true,
-//         changeYear: true,
-//         altField: "#idTourDateDetailsHidden",
-//         altFormat: "yy-mm-dd"
-//     });
-// });
-
-$(document).ready(function() {
-
-    $('#idTourDateDetail').datetimepicker({
-        format: 'dd/mm/yyyy'
+$(function() {
+    $(".list_user").hide();
+    //$(".nav-item").hide();
+    $("#create").click(function(){
+        $(".nav-item").hide();
+        $(".list_user").slideToggle("slow");
+        $(".create_user").slideToggle("slow");
     });
+    $("#list").click(function(){
+        $(".nav-item").show();
+        $(".list_user").slideToggle("slow");
+        $(".create_user").slideToggle("slow");
+    });
+
+    var fileinput = $('.fileinput').fileinput();
+fileinput.on('change.bs.fileinput', function(e, files){
+    console.log('change me!');
+})
+    
 });
+

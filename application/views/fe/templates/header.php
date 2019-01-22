@@ -15,4 +15,6 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="<?php echo base_url();?>assets/demo/demo.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>assets/css/main.css" rel="stylesheet" />
+  <script src="<?php echo base_url();?>assets/js/core/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </head>
