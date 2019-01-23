@@ -198,17 +198,19 @@
                     </div>
                     <div class="row">
                       <div class="col-md-4">
-                        <div class="fileinput fileinput-new input-group" data-provides="fileinput">
-                            <div class="form-control" data-trigger="fileinput">
-                                <i class="glyphicon glyphicon-file fileinput-exists"></i> 
+                        <div id="file-picker" style="margin-top:8px;" class="fileinput fileinput-new input-group" data-provides="fileinput">
+                            <div style="margin-right:10px;" class="form-control" data-trigger="fileinput">
+                                <i class="glyphicon glyphicon-file"></i> 
                                 <span class="fileinput-filename"></span>
                             </div>
-                            <span class="form-group">
+                            <span class="form-group md-form">
                                 <!-- <span class="fileinput-new">Select file</span>
                                 <span class="fileinput-exists">Change</span> -->
-                                <input placeHolder="Upload" class="form-group" type="file" name="...">
+                                
+                                <input placeholder="Upload Image" class="form-group form-control" type="file" name="...">
+                                
                             </span>
-                            <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                            <a href="#" class="input-group-addon btn btn-danger" data-dismiss="fileinput">Remove</a>
                         </div>
                       </div>
                       <div class="col-md-4">
