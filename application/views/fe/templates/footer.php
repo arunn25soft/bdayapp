@@ -98,13 +98,22 @@
       </ul>
     </div>
   </div> -->
+  <!-- Date picker only -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/css/bootstrap-material-datetimepicker.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+<script src="<?php echo base_url();?>assets/js/plugins/moment.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/js/bootstrap-material-datetimepicker.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/locale/ja.js"></script> -->
+  <!-- Date picker only -->
   <!--   Core JS Files   -->
 
   <script src="<?php echo base_url();?>assets/js/core/popper.min.js"></script>
   <script src="<?php echo base_url();?>assets/js/core/bootstrap-material-design.min.js"></script>
   <script src="<?php echo base_url();?>assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
   <!-- Plugin for the momentJs  -->
-  <script src="<?php echo base_url();?>assets/js/plugins/moment.min.js"></script>
+  <!-- <script src="<?php echo base_url();?>assets/js/plugins/moment.min.js"></script> -->
   <!--  Plugin for Sweet Alert -->
   <script src="<?php echo base_url();?>assets/js/plugins/sweetalert2.js"></script>
   <!-- Forms Validations Plugin -->

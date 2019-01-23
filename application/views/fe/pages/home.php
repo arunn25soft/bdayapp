@@ -197,7 +197,7 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-4">
+                      <div class="col-md-6">
                         <div id="file-picker" style="margin-top:8px;" class="fileinput fileinput-new input-group" data-provides="fileinput">
                             <div style="margin-right:10px;" class="form-control" data-trigger="fileinput">
                                 <i class="glyphicon glyphicon-file"></i> 
@@ -213,16 +213,10 @@
                             <a href="#" class="input-group-addon btn btn-danger" data-dismiss="fileinput">Remove</a>
                         </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">District</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Postal Code</label>
-                          <input type="text" class="form-control">
+                          <label class="bmd-label-floating">Date Picker</label>
+                          <input class="form-control" type="text" id="date-time">
                         </div>
                       </div>
                     </div>
@@ -236,8 +230,33 @@
                           </div>
                         </div>
                       </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Address</label>
+                          <div class="form-group">
+                            <label class="bmd-label-floating"> Permenant address of employee.</label>
+                            <textarea id="permanent_address" class="form-control" rows="5"></textarea>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <div class="col-md-12">
+                    <div class="label-check">
+                      <input type="checkbox" value="emp_address" id="empaddress">
+                      <label for="empaddress">Address same as Above</label>
+                    </div>
+                        <div class="form-group">
+                          <label>Address</label>
+                          <div class="form-group">
+                            <label class="bmd-label-floating"> Current address of employee.</label>
+                            <textarea id="current_address" class="form-control" rows="5"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
                     <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                    </div>
                     <div class="clearfix"></div>
                   </form>
                 </div>
