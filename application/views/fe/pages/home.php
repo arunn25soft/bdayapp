@@ -166,33 +166,39 @@
                   </div>
                 </div>
                 <div class="card-body">
-                  <form>
+                <form class="cmxform" id="commentForm" method="post" action="#">
                     <div class="row">
                       
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Emp Code</label>
-                          <input type="text" class="form-control">
+                          <input class="form-control"  minlength="3" type="text" required>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Email address</label>
-                          <input type="email" class="form-control">
+                          <input type="email" class="form-control" required>
                         </div>
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-md-4">
                         <div class="form-group">
                           <label class="bmd-label-floating">Fist Name</label>
-                          <input type="text" class="form-control">
+                          <input type="text" class="form-control" required>
                         </div>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-4">
                         <div class="form-group">
                           <label class="bmd-label-floating">Last Name</label>
-                          <input type="text" class="form-control">
+                          <input type="text" class="form-control" required>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Phone</label>
+                          <input type="text" class="form-control" required>
                         </div>
                       </div>
                     </div>
@@ -253,9 +259,9 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                    <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                      <div class="col-md-12">
+                        <button  type="submit" value="Submit" class="btn btn-primary pull-right">Submit</button>
+                      </div>
                     </div>
                     <div class="clearfix"></div>
                   </form>

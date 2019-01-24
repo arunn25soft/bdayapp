@@ -1,4 +1,5 @@
 $(function() {
+    $("#commentForm").validate();
     //Copy employee address
     $('#empaddress').click(function(){
         //alert("chcekded");
